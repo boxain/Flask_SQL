@@ -1,10 +1,10 @@
 from . import main_bp
-
+from flask import render_template , url_for
 
 
 @main_bp.route("/",methods=["GET"]) #首頁
 def main_page():
-    pass
+    return render_template("index.html")
 
 
 

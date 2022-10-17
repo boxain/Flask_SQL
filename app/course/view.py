@@ -1,4 +1,3 @@
-from crypt import methods
 from . import course_bp
 
 

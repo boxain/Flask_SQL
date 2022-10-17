@@ -17,7 +17,5 @@ def create_app(env):
     app.register_blueprint(course_bp)
     app.register_blueprint(user_bp)    
 
-
-
     return app
 
